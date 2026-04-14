@@ -1,6 +1,6 @@
 {
   "name": "@wjuniorw/bnvd-api-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Cliente (Wrapper) para a API do Banco Nacional de Vulnerabilidades Cibernéticas (BNVD)",
   "author": "wjuniorw",
