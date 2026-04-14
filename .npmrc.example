@@ -1,0 +1,4 @@
+//npm.pkg.github.com/:_authToken={$GITHUB_TOKEN}
+@wjuniorw:registry=https://npm.pkg.github.com/wjuniorw
+;//npm.pkg.github.com/wjuniorw/:_authToken={$GITHUB_TOKEN}
+;always-auth=true

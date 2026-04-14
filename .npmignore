@@ -1,0 +1,12 @@
+src
+lib
+_templates
+.husky
+patches
+.editorconfig
+.eslintignore
+.eslintrc
+.gitattributes
+.prettierrc
+.solidarity
+*.map

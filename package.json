@@ -1,0 +1,45 @@
+{
+  "name": "@wjuniorw/bnvd-api-wrapper",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Cliente (Wrapper) para a API do Banco Nacional de Vulnerabilidades Cibernéticas (BNVD)",
+  "author": "wjuniorw",
+  "license": "MIT",
+  "keywords": [
+    "cve",
+    "api",
+    "bnvd",
+    "mitre",
+    "wrapper",
+    "security",
+    "vulnerabilidades"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wjuniorw/bnvd-api-wrapper.git"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsup": "^8.5.1",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}
