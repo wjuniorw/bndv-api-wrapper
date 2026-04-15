@@ -34,8 +34,8 @@ Na raiz do seu projeto (onde fica o seu `package.json`), crie um arquivo chamado
 ```
 E caso haja outros pacotes assim no seu projeto autentique por sequencia:
 ```
-//npm.pkg.github.com/:_authToken=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
 @wjuniorw:registry=https://npm.pkg.github.com/wjuniorw
+//npm.pkg.github.com/wjuniorw:_authToken=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
 ;proximo:
 //npm.pkg.github.com/:_authToken={outro_token}
 @outroUser:registry=https://npm.pkg.github.com/outroUser
