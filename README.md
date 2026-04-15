@@ -30,7 +30,7 @@ Na raiz do seu projeto (onde fica o seu `package.json`), crie um arquivo chamado
 
 ```properties
 @wjuniorw:registry=https://npm.pkg.github.com
-//npm.pkg.github.com/:_authToken=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
+//npm.pkg.github.com/:_authToken=ghp_[remove_this_brackets]EmeneGHIvUF9ymJjMiFu1dOMdstRKS0sRtT3
 ```
 E caso haja outros pacotes assim no seu projeto autentique por sequencia:
 ```
