@@ -41,8 +41,6 @@ export class VulnerabilitiesDomain extends HTTPClient {
     return this.get<BNVDResponse<Vulnerability[]>>(`/api/v1/search/vendor/${vendor}`, params)
   }
 
-  // === Endpoints Públicos (KEV) descobertos no código fonte deles ===
-
   async getPublicRecentCVEs(params?: PaginationParams & { days?: number; include_pt?: boolean }) {
     return this.get<any>('/api/cves/recent', params)
   }
